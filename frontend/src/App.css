@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+
+button {
+  border: none;
+}
+
+.container {
+  background-color: #e00000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.actions {
+  background-color: rgb(255, 255, 255);
+  width: 500px;
+  height: 600px;
+  overflow-y: scroll;
+}
+
+.action {
+  margin-top: 1rem;
+  margin-bottom: -1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.action p {
+  min-width: 200px;
+  max-width: 200px;
+  text-align: start;
+
+  font-size: 1rem;
+  font-weight: bold;
+  color: #4e4e4e;
+}
+.checkbox {
+  width: 1.1rem;
+  height: 1.1rem;
+  border-radius: 50%;
+
+  border: 2px solid #525252;
+  box-shadow: none;
+  margin: 10px;
+}
+.header {
+  /* background-color: #ffffff; */
+  width: 508px;
+  height: 60px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 0.5);
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 0.8rem;
+}
+.newTaskButton {
+  border: none;
+  background-color: #ffffff;
+  width: 160px;
+  height: 50px;
+  /* border-radius: 24px; */
+  margin-top: 20px;
+  color: #e00000;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+.inputName {
+  margin-top: 10px;
+  text-align: center;
+  border: none;
+  height: 30px;
+  width: 400px;
+  box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 0.3);
+}
+input:focus {
+  outline: none;
+}
